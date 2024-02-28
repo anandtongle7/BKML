@@ -17,6 +17,7 @@ There are two types of Coupon data analyzed in the jupyter program
 The analsysis aims at determining the acceptance rate of the above coupons by the customers based on collected data
 
 Summary of analysis is as follows: 
+
   (1)  BAR coupon acceptance rate is 
        #1# Highest among drivers who are above the age of 25 and below 35 years of age 
        #2# High acceptance rate among the drivers who visit Bar atleast once a month and highest among those visit more than 3 times a month
