@@ -1,6 +1,8 @@
-**Practical Application III: Comparing Classifiers**
-    "\n",
-    "Overview: In this practical application, goal is to compare the performance of the classifierd, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines.\n",
+**Practical Application III: Comparing Classifiers**    
+
+Overview: In this practical application, goal is to compare the performance of the classifierd, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines.
+
+
     "\n",
     "We will utilize a dataset related to marketing bank products over the telephone.\n",
     "\n",
