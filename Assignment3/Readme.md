@@ -33,7 +33,7 @@ Such model can increase campaign efficiency by identifying the main characterist
 | KNN                |       0.0407088 |            92.1  |     1.47039    |           88.77 |    42.07 |       59.75 |     
 | DecTree            |       0.325899  |           100    |     0.00997543 |           87.55 |    53.53 |       52.15 | 
 | SVM                |      17.1152    |            91.62 |     6.02164    |           89.59 |    40.3  |       66.53 | 
-|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------| 
+
 
 **After feature engineering and Hyper parameter tuning**
   
@@ -43,7 +43,6 @@ Such model can increase campaign efficiency by identifying the main characterist
 | KNN_WithHypTuning  |         25.4254 |            92.27 |     2.06553    |           90.51 |    41.39 |       62.32 |
 | DecTree_WithHyper  |         16.7037 |            92.27 |     0.00868821 |           91.5  |    54.22 |       65.08 |
 | SVM_WithHypTuning  |        506.523  |            92.27 |     9.46171    |           91.2  |    43.32 |       67.5  |
-|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|
 
 **Conclusion**
     
