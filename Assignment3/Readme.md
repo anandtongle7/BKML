@@ -1,11 +1,4 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "d2e0b8cf-7875-4c9d-9361-aaea78a4ddf5",
-   "metadata": {},
-   "source": [
-    "**Practical Application III: Comparing Classifiers**\n",
+**Practical Application III: Comparing Classifiers**
     "\n",
     "Overview: In this practical application, goal is to compare the performance of the classifierd, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines.\n",
     "\n",
