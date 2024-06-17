@@ -115,14 +115,6 @@
     "\n",
     "For the current application, based on results, I will recommend Decision Tree algorithm with specific hyper parameters to the customer"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "ae35554b-cad7-478a-8f0f-59c5f252b76a",
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {
