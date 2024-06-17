@@ -14,60 +14,30 @@ The business goal is to find a model that can explain success of a contact, i.e.
 
 Such model can increase campaign efficiency by identifying the main characteristics that affect success, helping in a better management of the available resources (e.g. human effort, phone calls, time) and selection of a high quality and affordable set of potential buying customers
 
+**Steps in CRISP-DM methodology**
 
-   
-   "cell_type": "markdown",
-   "id": "95ebb99c-53c1-49db-bb57-e3c0249634af",
-   "metadata": {},
-   "source": [
-    "**Steps in CRISP-DM methodology**\n",
-    "\n",
-    "(1) Data Understanding     \n",
-    "(2) Data Processing      \n",
-    "(3) Trail Model Run using \"Linear Regressions\"     \n",
-    "(4) Setting up the target accuracy, recall and precision definintions     \n",
-    "(5) Using KNN, Decision Trees and SVM methods to compare the accuracy      \n",
-    "(6) Trying out the feature engineering and checking the results        \n",
-    "(7) Using the various hyperparameters and evaluating the results        \n",
-    "(8) Selecting the appropriate methods and proposing classifier to the customer          \n",
-    "\n",
-    "\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "57174da3-71e4-4472-9070-7b419495189e",
-   "metadata": {},
-   "source": [
-    "**Initial Results**"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "64292dc1-179a-4147-9f24-9f0a92d25013",
-   "metadata": {
-    "tags": []
-   },
-   "source": [
-    "| Classifier         |   Train Time(s) |   Train Accuracy |   Test Time(s) |   Test Accuracy |   Recall |   Precision |   \n",
-    "|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|\n",
-    "| LogisticRegression |       0.320297  |            90.21 |     0.0075016  |           89.55 |    41.44 |       65.67 |    \n",
-    "|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|\n",
-    "| KNN                |       0.0407088 |            92.1  |     1.47039    |           88.77 |    42.07 |       59.75 |     \n",
-    "|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|\n",
-    "| DecTree            |       0.325899  |           100    |     0.00997543 |           87.55 |    53.53 |       52.15 | \n",
-    "|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|\n",
-    "| SVM                |      17.1152    |            91.62 |     6.02164    |           89.59 |    40.3  |       66.53 | \n",
-    "|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "8ac8ea11-2cdb-40a2-b124-2470852973e4",
-   "metadata": {
-    "tags": []
-   },
-   "source": [
+(1) Data Understanding 
+(2) Data Processing    
+(3) Trail Model Run using Linear Regressions
+(4) Setting up the target accuracy, recall and precision definintions 
+(5) Using KNN, Decision Trees and SVM methods to compare the accuracy  
+(6) Trying out the feature engineering and checking the results  
+(7) Using the various hyperparameters and evaluating the results    
+(8) Selecting the appropriate methods and proposing classifier to the customer         
+
+**Initial Results**
+
+| Classifier         |   Train Time(s) |   Train Accuracy |   Test Time(s) |   Test Accuracy |   Recall |   Precision |  
+|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|
+| LogisticRegression |       0.320297  |            90.21 |     0.0075016  |           89.55 |    41.44 |       65.67 |   
+|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|
+| KNN                |       0.0407088 |            92.1  |     1.47039    |           88.77 |    42.07 |       59.75 |     
+|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|
+| DecTree            |       0.325899  |           100    |     0.00997543 |           87.55 |    53.53 |       52.15 | 
+|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------|
+| SVM                |      17.1152    |            91.62 |     6.02164    |           89.59 |    40.3  |       66.53 | 
+|--------------------|-----------------|------------------|----------------|-----------------|----------|-------------| 
+
     "**After feature engineering and Hyper parameter tuning**"
    ]
   },
