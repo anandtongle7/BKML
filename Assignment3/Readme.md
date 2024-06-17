@@ -58,13 +58,11 @@
    ]
   },
   {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "d205dc9a-56f4-4682-976d-409448535c00",
+   "cell_type": "raw",
+   "id": "c8247fe5-f570-42d1-b162-233f349971b0",
    "metadata": {
     "tags": []
    },
-   "outputs": [],
    "source": [
     "+--------------------+-----------------+------------------+----------------+-----------------+----------+-------------+-----------+-------+\n",
     "| Classifier         |   Train Time(s) |   Train Accuracy |   Test Time(s) |   Test Accuracy |   Recall |   Precision |   F1Score |   FPR |\n",
@@ -90,11 +88,11 @@
    ]
   },
   {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "539421ba-b8e1-4e1a-af55-4954a9c7954f",
-   "metadata": {},
-   "outputs": [],
+   "cell_type": "raw",
+   "id": "3b9740d7-79ad-4832-8622-a50149f15b37",
+   "metadata": {
+    "tags": []
+   },
    "source": [
     "+--------------------+-----------------+------------------+----------------+-----------------+----------+-------------+-----------+-------+\n",
     "| Classifier         |   Train Time(s) |   Train Accuracy |   Test Time(s) |   Test Accuracy |   Recall |   Precision |   F1Score |   FPR |\n",
