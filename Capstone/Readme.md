@@ -37,7 +37,7 @@
 ### Various classifiers like 
 ### (1) Logistic_Regression <BR> (2) Decrision Trees <BR> (3) Ensamble technique (Bagging) : Random Forest  <BR> (4),Ensamble technique (Boosting): XGBoost <BR> (5))Deep Neural Network (MLP - Multi-Layer Perceptron model)
 
-### are used for evluating the best performance parameters Net'
+### are used for evluating the best performance parameters
 
 ### Based on the various results **XGBoost classifier** is suggested for binary and multi-class classification 
 
