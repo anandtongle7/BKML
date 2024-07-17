@@ -35,11 +35,16 @@
 ### While processing the data, few features like absolute IP addresses, ports IDs etc were removed and only traffic patterns were used for training the models.
 
 ### Various classifiers like 
-### (1) Logistic_Regression <BR> (2) Decrision Trees <BR> (3) Ensamble technique (Bagging) :  'Random_Fore  <BR> (4),Ensamble technique (Boosting):   'XGBoost <BR> (5))Deep    'Ne Network (MLP - Multi-Layer Perceptron model)
+### (1) Logistic_Regression <BR> (2) Decrision Trees <BR> (3) Ensamble technique (Bagging) : Random Forest  <BR> (4),Ensamble technique (Boosting): XGBoost <BR> (5))Deep Neural Network (MLP - Multi-Layer Perceptron model)
 
 ### are used for evluating the best performance parameters Net'
 
 ### Based on the various results **XGBoost classifier** is suggested for binary and multi-class classification 
+
+
+```python
+
+```
 
 
 ```python
